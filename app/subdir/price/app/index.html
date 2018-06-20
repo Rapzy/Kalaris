@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Kalaris</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="../img/favicon.ico"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.4/css/mdb.min.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link rel="stylesheet" href="/css/libs.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 logo">
+				<a href="../"><img src="img/logo.png"></a>
+			</div>
+			<div class="col-md-5 col-sm-6 phone text-center">
+				<div class="row">+375 29 803 30 80</div>
+			</div>
+			<div class="col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" >
+				<div class="row">
+					<div class="btn btn-new" data-toggle="modal" data-target="#main_modal">
+						Задать вопрос
+					</div>
+				</div>
+			</div>
+		</div>
+			<nav class="navbar-default" role="navigation"><!-- col-md-9 col-md-offset-3 -->
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-right" id="nav">
+						<ul class="nav row">
+							<li class="drop">
+								<a href="price" class="waves-effect" id="dropdownMenu">Цены и услуги <span class="caret"></span></a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+									<li class="dropdown-item"><a class="waves-effect" href="site">Разработка сайтов</a></li>
+									<li class="dropdown-item"><a class="waves-effect" href="smm">SMM продвижение</a></li>
+									<li class="dropdown-item"><a class="waves-effect" href="seo">SEO продвижение</a></li>
+									<li class="dropdown-item"><a class="waves-effect" href="context">Контекстная реклама</a></li>
+								</ul>
+							</li>
+							<li><a href="../#portfolio" class="scroll waves-effect ">Портфолио</a></li>
+							<li><a href="../coming_soon" class="waves-effect">О компании</a></li>
+							<li><a href="#main_form" class="scroll waves-effect">Контакты</a></li>
+							<li><a href="../coming_soon" class="waves-effect">Вакансии</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+	</header>
+
+	<section id="price">
+		<div class="container">
+			<h2>
+				Цены и услуги
+			</h2>
+			<hr>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="card clearfix col-left">
+						<div class="view overlay hm-white-slight">
+							<img src="img/1.jpg" class="img-fluid" alt="">
+							<a href="site">
+								<div class="mask"></div>
+							</a>
+						</div>
+						<div class="card-body col-xs-12">
+							<h4 class="card-title">Разработка сайтов</h4>
+							<p class="card-text">Мы создаем сайты высокого качества абсолютно любой сложности в кратчайшие сроки. Нам очень важно ,чтобы наш клиент остался полностью доволен результатом.</p>
+							<h4 class="card-price">ЦЕНА: от 400 руб.</h4>
+							<div class="">
+								<a href="site" class="btn btn-new">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="card clearfix col-right">
+						<div class="view overlay hm-white-slight">
+							<img src="img/2.jpg" class="img-fluid" alt="">
+							<a href="context">
+								<div class="mask"></div>
+							</a>
+						</div>
+						<div class="card-body col-xs-12">
+							<h4 class="card-title">Контекстная реклама</h4>
+							<p class="card-text">Если Ваш сайт совсем не долго на рынке и Вы хо-тите получить клиентов здесь и сейчас. Мы предлагаем настройку рекламной компании в таких рекламных компаниях как Google Adwords и Яндекс Директ.</p>
+							<h4 class="card-price">ЦЕНА: от 100 руб. в месяц</h4>
+							<div class="">
+								<a href="context" class="btn btn-new">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="card clearfix col-left">
+						<div class="view overlay hm-white-slight">
+							<img src="img/4.jpg" class="img-fluid" alt="">
+							<a href="seo">
+								<div class="mask"></div>
+							</a>
+						</div>
+						<div class="card-body col-xs-12">
+							<h4 class="card-title">Поисковое продвижение (SEO)</h4>
+							<p class="card-text">Большинство пользователей ищут товар или услугу на первой странице поиска, но из-за того поисковые алгоритмы Google и Yandex 
+постоянно меняются, позиции Вашего сайта  падают, что хуже сказывается на посещаемости. Благодаря нашей работе Вы будете находиться всегда в ТОПЕ поиска!</p>
+							<h4 class="card-price">ЦЕНА: от 800 руб. месяц</h4>
+							<div class="">
+								<a href="seo" class="btn btn-new">Подробнее</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-5 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
+					<div class="card clearfix col-right">
+						<div class="view overlay hm-white-slight">
+							<img src="img/3.jpg" class="img-fluid" alt="">
+							<a href="smm">
+								<div class="mask"></div>
+							</a>
+						</div>
+						<div class="card-body col-xs-12">
+							<h4 class="card-title">Продвижение в социальных</h4>
+							<p class="card-text">Социальные сети-это огромная площадка которая постоянно растет, там находятся люди любых интересов и возрастов. Мы поможем Вам и Вашей компании продавать товар или услугу, там с минимальными вложениями.</p>
+							<h4 class="card-price">ЦЕНА: от 50 руб. в месяц</h4>
+							<div class="">
+								<a href="smm" class="btn btn-new">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="main_form" class="clearfix">
+		<div class="container">
+			<form class="col-md-6 col-xs-12">
+				<div class="col-left">
+					<p class="title">Остались вопросы?</p>
+					<p class="subtitle">Напишите, и мы свяжемся с Вами</p>
+				</div>
+				<input class="col-xs-12 z-depth-1" type="text" name="name" placeholder="Ваше имя">
+				<input class="col-xs-12 z-depth-1" type="tel" name="phone" placeholder="Ваш телефон">
+				<textarea class="col-xs-12 z-depth-1" type="textarea" name="quest" placeholder="Ваш вопрос"></textarea>
+				<input class="col-xs-12 z-depth-2 btn-new" type="submit">
+			</form>
+			<div class="col-md-5 col-md-offset-1 col-xs-12">
+				<div class="col-right">
+					<p class="title">Контакты</p>
+				</div>
+				<div class="img-wrap info-row"><img src="img/logo_small.png"></div>
+				<div class="info-row">г. Минск, ул. Казинца, 125</div>
+				<div class="info-row">+375 29 803-30-80</div>
+				<div class="info-row">info@kalaris.by</div>
+				<div class="info-row">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</div>
+				<div class="info-row">
+					<i class="fab fa-vk"></i>
+					<i class="fab fa-instagram"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>Copyright © 2018 Kalaris</p>
+	</footer>
+	<!-- Modal -->
+	<div class="modal fade" id="main_modal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel" aria-hidden="true">
+	  <div class="modal-dialog clearfix">
+	    <div class="modal-content col-md-6">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="mainModalLabel">Заполните форму</h4>
+	        <h5 class="modal-subtitle">и мы обязательно свяжемся с Вами</h5>
+	      </div>
+	      <div class="modal-body clearfix">
+	        <form>
+	        	<input type="text" name="name" required class="col-xs-12" placeholder="Ваше имя*">
+	        	
+	        	<input type="tel" name="phone" required class="col-xs-12" placeholder="Ваш телефон*">
+	        	
+	        	<input type="email" name="email" class="col-xs-12" placeholder="Ваш e-mail">
+	        	
+	        	<input type="text" name="site" class="col-xs-12" placeholder="Ваш сайт (если есть)">
+	        	
+	        	<input type="checkbox" class="checkbox" id="check_site" name="check_site" value="Хочу заказать создание сайта" />
+				<label for="check_site">Хочу заказать создание сайта</label>
+				
+				<input type="checkbox" class="checkbox" id="check_seo" name="check_seo" value="Хочу заказать поисковое продвижение (SEO)" />
+				<label for="check_seo">Хочу заказать поисковое продвижение (SEO)</label>
+				
+				<input type="checkbox" class="checkbox" id="check_SMM" name="check_SMM" value="Хочу заказать продвижение в социальных сетях (SMM)" />
+				<label for="check_SMM">Хочу заказать продвижение в социальных сетях (SMM)</label>
+				
+				<input type="checkbox" class="checkbox" id="check_idk" name="check_idk" value="Я еще не знаю, что мне нужно, просто перезвоните мне" />
+				<label for="check_idk">Я еще не знаю, что мне нужно, просто перезвоните мне</label>
+	        	
+				<input type="submit" class="btn-new">
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<script src="/js/libs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.4/js/mdb.min.js"></script>
+
+	<script src="/js/main.js"></script>
+</body>
+</html>
+<!-->

@@ -1,0 +1,25 @@
+{
+  "name": "kalaris_main",
+  "description": "Main Page",
+  "main": "index.html",
+  "authors": [
+    "Egor-Va"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "bootstrap": "3",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
